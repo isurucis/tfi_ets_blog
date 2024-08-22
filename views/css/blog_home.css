@@ -189,7 +189,8 @@ div#block_myaccount_infos li span.ss_icon_group {
     width: 100%;
 }
 #content-wrapper .ets_block_slider .owl-item > li {
-    padding-bottom: 15px;
+    /*padding-bottom: 15px; */
+    padding: 10px 10px 15px 10px;
 }
 .ets_block_slider .owl-controls, .ets_blog_related_posts_type_carousel .owl-controls, .ets_related_products_type_carousel .owl-controls {
     bottom: 100%;
