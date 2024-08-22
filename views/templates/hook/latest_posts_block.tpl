@@ -23,7 +23,8 @@
         <div class="block_content row">
             <ul class="owl-rtl {if count($posts)>1}owl-carousel{/if}">
                 {foreach from=$posts item='post'}
-                    <li {if $page=='home'}class="col-xs-12 col-sm-4 col-lg-{12/$product_row|intval}"{/if}> 
+                    <!-- li {if $page=='home'}class="col-xs-12 col-sm-4 col-lg-{12/$product_row|intval}"{/if} -->
+                    <li {if $page=='home'}class="card"{/if}>
                         {if $post.thumb}
                             <a class="ets_item_img" href="{$post.link|escape:'html':'UTF-8'}">
                                 <img src="{$post.thumb|escape:'html':'UTF-8'}" alt="{$post.title|escape:'html':'UTF-8'}" title="{$post.title|escape:'html':'UTF-8'}" />
