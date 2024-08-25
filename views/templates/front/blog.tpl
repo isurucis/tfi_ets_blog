@@ -18,12 +18,14 @@
 *}
 {extends file="page.tpl"}
 {block name="content"}
-    <div id="left-column" class="col-xs-12 col-sm-4 col-md-3">
-        <div class="ets_blog_sidebar ">
-            {$blog_left_sidebar nofilter}
+    <div id="content-wrapper" class="row">
+        <div id="left-column" class="col-xs-12 col-sm-4 col-md-3">
+            <div class="ets_blog_sidebar ">
+                {$blog_left_sidebar nofilter}
+            </div>
         </div>
-    </div>
-    <div id="content-wrapper" class="left-column col-xs-12 col-sm-8 col-md-9">
-        {$blog_content nofilter}
+        <div id="content-wrapper" class="left-column col-xs-12 col-sm-8 col-md-9">
+            {$blog_content nofilter}
+        </div>
     </div>
 {/block}
