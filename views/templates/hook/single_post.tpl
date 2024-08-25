@@ -378,7 +378,8 @@
                     {assign var='post_row' value=3}
                     <ul class="ets-blog-related-posts-list dt-{$post_row|intval}">
                         {foreach from=$blog_post.related_posts item='rpost'}                                            
-                            <li class="ets-blog-related-posts-list-li col-xs-12 col-sm-4 col-lg-{12/$post_row|intval} thumbnail-container">
+                            <!-- li class="ets-blog-related-posts-list-li col-xs-12 col-sm-4 col-lg-{12/$post_row|intval} thumbnail-container" -->
+                            <li class="card">
                                 {if $rpost.thumb}
                                     <a class="ets_item_img" href="{$rpost.link|escape:'html':'UTF-8'}">
                                         <img src="{$rpost.thumb|escape:'html':'UTF-8'}" alt="{$rpost.title|escape:'html':'UTF-8'}" />
