@@ -17,7 +17,7 @@
  * @license    Valid for 1 website (or project) for each purchase of license
 *}
 {if $posts}
-    <div class="block ets_block_latest {$ETS_BLOG_RTL_CLASS|escape:'html':'UTF-8'} {if isset($page) && $page}page_{$page|escape:'html':'UTF-8'}{else}page_blog{/if} ets_block_slider">
+    <div class="card block ets_block_latest {$ETS_BLOG_RTL_CLASS|escape:'html':'UTF-8'} {if isset($page) && $page}page_{$page|escape:'html':'UTF-8'}{else}page_blog{/if} ets_block_slider">
         <h4 class="title_blog title_block">{l s='Latest posts' mod='ets_blog'}</h4>
         {assign var='product_row' value=4}
         <div class="block_content row">
