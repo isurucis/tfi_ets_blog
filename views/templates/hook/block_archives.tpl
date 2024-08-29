@@ -17,7 +17,7 @@
  * @license    Valid for 1 website (or project) for each purchase of license
 *}
 {if $years}
-    <div class="block ets_block_archive {$ETS_BLOG_RTL_CLASS|escape:'html':'UTF-8'}">
+    <div class="block card ets_block_archive {$ETS_BLOG_RTL_CLASS|escape:'html':'UTF-8'}">
         <h4 class="title_blog title_block">
             {l s='Archived posts' mod='ets_blog'}
         </h4>

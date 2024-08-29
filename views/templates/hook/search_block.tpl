@@ -16,7 +16,7 @@
  * @copyright  ETS Software Technology Co., Ltd
  * @license    Valid for 1 website (or project) for each purchase of license
 *}
-<div class="block ets_block_search {$ETS_BLOG_RTL_CLASS|escape:'html':'UTF-8'}">
+<div class="block card ets_block_search {$ETS_BLOG_RTL_CLASS|escape:'html':'UTF-8'}">
     <h4 class="title_blog title_block">{l s='Search in blog' mod='ets_blog'}</h4>
     <div class="content_block block_content">
         <form action="{$action|escape:'html':'UTF-8'}" method="post">
