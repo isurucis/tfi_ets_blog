@@ -267,7 +267,8 @@ div#block_myaccount_infos li span.ss_icon_group {
   clear: left;
   float: left;
   margin-bottom: 30px;
-  padding: 15px 25px 30px;
+  padding: 0px 0px 30px;
+  /*padding: 15px 25px 30px;*/
   width: 100%;
 }
 @media (min-width: 1200px){

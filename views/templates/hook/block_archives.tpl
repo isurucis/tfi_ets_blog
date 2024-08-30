@@ -18,7 +18,7 @@
 *}
 {if $years}
     <div class="block card ets_block_archive {$ETS_BLOG_RTL_CLASS|escape:'html':'UTF-8'}">
-        <h4 class="title_blog title_block">
+        <h4 class="card-title h5 mb-0">
             {l s='Archived posts' mod='ets_blog'}
         </h4>
         <div class="content_block block_content">
