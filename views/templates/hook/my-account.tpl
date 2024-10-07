@@ -16,7 +16,7 @@
  * @copyright  ETS Software Technology Co., Ltd
  * @license    Valid for 1 website (or project) for each purchase of license
 *}
-<li class="col-lg-4 col-md-6 col-sm-6 col-xs-12" >
+<!-- li class="col-lg-4 col-md-6 col-sm-6 col-xs-12" >
     <a id="author-blog-comment-link" href="{$link->getModuleLink('ets_blog','comments')|escape:'html':'UTF-8'}" title="{l s='My blog comments' mod='ets_blog'}">
         <span class="link-item">
             <span class="ss_icon_group">
@@ -25,4 +25,4 @@
             {*l s='My blog comments' mod='ets_blog'*}
         </span>
     </a>
-</li> 
+</li --> 
