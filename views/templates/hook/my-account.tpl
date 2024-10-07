@@ -22,7 +22,7 @@
             <span class="ss_icon_group">
                 <i class="fa fa-comments"></i>
             </span>
-            {l s='My blog comments' mod='ets_blog'}
+            {*l s='My blog comments' mod='ets_blog'*}
         </span>
     </a>
 </li> 
